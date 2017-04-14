@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Poole
 tagline:             The Jekyll Butler
 url:                 http://getpoole.com
-paginate:            1
+paginate:            5
 baseurl:             ""
 
 # Assets
@@ -13,13 +13,21 @@ baseurl:             ""
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          _sass
-  style:            :compressed
+  style:            :compresseds
 
 # About/contact
 author:
   name:              Mark Otto
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Sidebar
+sidebar: true
 
 # Custom vars
 version:             2.0.0
@@ -31,5 +39,8 @@ gems:
   - jekyll-paginate
   - jekyll-gist
 
+gist:
+  noscript: false
+
 # Port
-port:                4001
+port: 4001
