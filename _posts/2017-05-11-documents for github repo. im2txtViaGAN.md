@@ -59,7 +59,7 @@ with tf.variable_scope(scope, "InceptionV3", [images]) as scope:
             is_training=is_inception_model_training,
             scope="dropout")
         net = slim.flatten(net, scope="flatten")
-{% endhighlight%}
+{% endhighlight %}
 
 ### Sequence embedding
 
