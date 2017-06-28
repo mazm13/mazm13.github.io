@@ -2,7 +2,6 @@
 layout: post
 title: Documents for github repo. im2txtViaGAN
 ---
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 github repo. link[(https://github.com/mazm13/im2txtViaGAN)](https://github.com/mazm13/im2txtViaGAN)
 
 ***TODO LIST***

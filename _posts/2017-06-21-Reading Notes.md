@@ -2,7 +2,6 @@
 layout: post
 title: Reading Notes
 ---
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 Zhongliang Yang, Yu-Jin Zhang, Sadaqat ur Rehman & Yongfeng Huang(2017): Image Captioning with Object Detection and Localization. *CoRR, abs/1706.02430*, [https://arxiv.org/abs/1706.02430](https://arxiv.org/abs/1706.02430)
 
