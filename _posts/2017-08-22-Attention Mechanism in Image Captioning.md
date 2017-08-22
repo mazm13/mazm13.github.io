@@ -75,8 +75,8 @@ title: Attention Mechanism in Image Captioning
 \\[a_{i,t}=w_a^T\tanh(W_{va}v_i+W_{ha}h_t^1)\\]
 \\[\alpha_t=softmax(a_t)\\]
 其中$w_a$是$H$维的参数，后面括号里的两个$W$是要把相乘的向量映射到$H$维。这样
-\\[\hat{v}_t=\sum\limits_{i=1}^K \alpha_{i,t}v_i\\]
-这样就得到了LSTM2的输入$\x_t^2=[\hat{v}_t,h_t^1]$。LSTM2的输出$h_t^2$经全连接层之后便得到了词分布向量
+\\[\hat{v_t}=\sum\limits_{i=1}^k \alpha_{i,t}v_i \\]
+这样就得到了LSTM2的输入$x_t^2=[\hat{v_t},h_t^1]$。LSTM2的输出$h_t^2$经全连接层之后便得到了词分布向量
 \\[p(y_t|y_{1:t-1})=softmax(W_ph_t^2+b_p)\\]
 
 ### About Codes
